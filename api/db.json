@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "_id": 1,
+      "name": "honeycrisp",
+      "display_name": "apple",
+      "description": "crisp apple"
+    }
+  ],
+  "products": [
+    {
+      "_id": 1,
+      "category": "apple",
+      "name": "honeycrispPRODUCT",
+      "display_name": "applePRODUCT",
+      "description": "crisp apple PRODUCT"
+
+    }
+  ]
+}
