@@ -4,7 +4,7 @@
   "description": "Created 3 servers which are JSON server, www server, and resty react app server.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --verbose --detectOpenHandles",
+    "test": "jest --coverage --verbose",
     "watch": "jest --coverage --verbose --watchAll"
   },
   "repository": {
