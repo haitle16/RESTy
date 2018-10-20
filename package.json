@@ -1,0 +1,26 @@
+{
+  "name": "RESTy",
+  "version": "1.0.0",
+  "description": "Created 3 servers which are JSON server, www server, and resty react app server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose --detectOpenHandles",
+    "watch": "jest --coverage --verbose --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haitle16/RESTy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haitle16/RESTy/issues"
+  },
+  "homepage": "https://github.com/haitle16/RESTy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
+  }
+}

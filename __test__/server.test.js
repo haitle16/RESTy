@@ -1,8 +1,9 @@
 'use strict';
 
-const {server} = require('../../lib/server.js');
+const {server} = require('../www/server.js');
 const supertest = require('supertest');
 const mockRequest = supertest(server);
+
 
 describe('web server', () => {
 
@@ -11,9 +12,10 @@ describe('web server', () => {
         return mockRequest
             .get('/foo')
             .then(results => {
+                // console.log(results);
                 expect(results.status).toBe(404);
             }).catch(console.error);
-
+        done();
     });
 
     it('should respond with a 404 on an invalid method', () => {
@@ -21,9 +23,10 @@ describe('web server', () => {
         return mockRequest
             .post('/')
             .then(results => {
+                // console.log(results);
                 expect(results.status).toBe(404);
             }).catch(console.error);
-
+        done();
     });
 
     it('should respond properly on request to /', () => {
@@ -31,9 +34,10 @@ describe('web server', () => {
         return mockRequest
             .get('/')
             .then(results => {
+                // console.log(results);
                 expect(results.status).toBe(200);
             }).catch(console.error);
-
+        done();
     });
 
 
