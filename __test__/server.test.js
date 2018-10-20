@@ -35,6 +35,19 @@ describe('web server', () => {
         // done();
     });
 
+    it('correct route make sure to return 200 ', () => {
+
+        return mockRequest
+            .get('/')
+            .then(results => {
+                // console.log(results);
+                expect(results.status).toBe(500);
+            }).catch(err => {
+                console.log(err);
+                done(err);
+            });
+        // done();
+    });
 
 
 });
