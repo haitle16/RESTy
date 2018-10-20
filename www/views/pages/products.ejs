@@ -1,0 +1,9 @@
+<h2> This is an example of products page</h2>
+<ul>
+    <% products.forEach(product =>{%>
+        <li>category: <%= product.category %> </li>
+        <li>name: <%= product.name %> </li>
+        <li>display name: <%= product.display_name %> </li>
+        <li>description: <%= product.description %> </li>
+    <%})%>
+</ul>

@@ -1,0 +1,30 @@
+{
+  "name": "RESTy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8000",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --coverage --verbose",
+    "watch": "jest --coverage --verbose --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "agent": "^0.2.1",
+    "jest": "^23.6.0",
+    "next": "^7.0.2",
+    "node-sass": "^4.9.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-json-pretty": "^1.7.9",
+    "react-json-view": "^1.19.1",
+    "super": "^0.2.3",
+    "superagent": "^4.0.0-beta.5",
+    "supertest": "^3.3.0"
+  }
+}
